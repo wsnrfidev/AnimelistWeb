@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Animelist Website
 
-## Getting Started
+[IDN]
 
-First, run the development server:
+Projek ini saya buat pertama kali ketika saya belajar fullstack, dan projek ini based od tutorial dari dea afrizal.
+Cc: Yt Dea Afrizal/Cuy University.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Untuk Api saya menggunakan jikan moe, untuk fitur login saya menggunakan github, dan ada beberapa fitur lainnya.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Cara Menjalankan Projek]
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. git clone [URL REPOS INI}
+2. buat file .env.local/.emv di root projek
+3. setup .env.local/.env
+4. npm install
+5. npm run dev
+6. dan projek kalian akan jalan di localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[ENG]
 
-## Learn More
+I made this project for the first time when I was learning Fullstack, and this project is based on a tutorial from Dea Afrizal.
+Cc: Dear Dea Afrizal/Cuy University.
 
-To learn more about Next.js, take a look at the following resources:
+For Api I use Ikan Moe, for the login feature I use GitHub, and there are several other features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[How to Run a Project]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. git clone [URL OF THIS REPOS}
+2. create a .env.local/.emv file in the project root
+3. setup .env.local/.env
+4. npm install
+5. npm run dev
+6. and your project will run on localhost:3000
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Env]
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+NEXT_PUBLIC_API_BASE_URL=https://api.jikan.moe/v4
+GITHUB_CLIENT=
+GITHUB_SECRET=
+NEXTAUTH_SECRET=
+NODE_PATH=./src
+DATABASE_URL=
+
+[Preview]
+
+![This Anime List - Profil 1 - Microsoft​ Edge 19_12_2024 03 04 11](https://github.com/user-attachments/assets/bc5b7cd4-1d63-408b-a7f9-a35ee0b19dea)
